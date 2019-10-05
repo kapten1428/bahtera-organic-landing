@@ -71,6 +71,9 @@ nav {
 }
 
 nav.js-nav-visible {
+    .navigation {
+        transform: translateX(0);
+    }
     .mobile-nav {
         .nav__line {
             .nav__line-btn:nth-of-type(1) {
