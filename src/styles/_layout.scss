@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.content__info {
+    text-align: center;
+    .logo {
+        margin: 0 auto;
+        font-size: 3rem;
+        text-align: center;
+    }
+  
+}

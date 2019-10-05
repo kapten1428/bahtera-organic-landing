@@ -1,0 +1,34 @@
+section#contact {
+  margin-top: 2rem;
+  background: #000000;
+  .content__info {
+    padding-top: 2rem;
+    .logo {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+    color: #ffffff;
+    text-align: center;
+  }
+  .contact__info {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    &>div {
+      margin: 5px 10px;
+      line-height: 1.5;
+      background: #6f6a67;
+      padding: 10px;
+    }
+  }
+}
+
+@include for-desktop {
+  section#contact {
+    .contact__info {
+      flex-direction: unset;
+    }
+  }
+}
